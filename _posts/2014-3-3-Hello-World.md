@@ -3,6 +3,6 @@ layout: post
 title: Can you hear me now?
 ---
 
-Hello world(s). Test post please ignore. I bet the date is old af.
+Hello world(s). Test post please ignore.
 
-![_config.yml]({{ site.baseurl }}/images/404.jpg)
+![_config.yml]({{ site.baseurl }}/images/dogesuit.jpg)
