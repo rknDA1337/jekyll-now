@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
 
@@ -27,7 +27,6 @@
           </div>
 
           <nav>
-            <!-- <a href="{{ site.baseurl }}/">Blog</a> -->
             <a href="https://dogeminer2.com/">Return to game</a>
           </nav>
         </header>
@@ -47,5 +46,7 @@
     </div>
 
     {% include analytics.html %}
+
+    {% include schema.html %}
   </body>
 </html>
