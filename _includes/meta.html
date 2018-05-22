@@ -2,13 +2,16 @@
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@rknDA1337" />
     {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt| strip_html }}" />
-    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+    <meta name="description" content="{{ page.excerpt | strip_html }}" />
+    <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+    <meta property="og:url" content="{{site.url}}" />
     {% else %}
-    <meta name="description" content="{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
+    <meta name="description" content="The Dogeminer 2: Developer blog gives a glimpse of what's going on behind the scenes. Anything from small stuff like new items or upgrades to completely new features, locations and more.">
+    <meta property="og:description" content="The Dogeminer 2: Developer blog gives a glimpse of what's going on behind the scenes. Anything from small stuff like new items or upgrades to completely new features, locations and more." />
     {% endif %}
     <meta name="author" content="{{ site.name }}" />
 
@@ -16,3 +19,12 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
+    <meta property="og:image" content="http://dogeminer2.com/og-image.jpg">
+    <meta property="og:image:secure_url" content="https://dogeminer2.com/og-image.jpg">
+    <meta property="fb:app_id" content="458883514568847" />
+    <meta property="og:image:height" content="298">
+    <meta property="og:image:width" content="570">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="image_src" href="https://dogeminer2.com/img/dogeminer2.png">
+    <link rel="shortcut icon" href="https://dogeminer2.com/favicon.ico">
+
