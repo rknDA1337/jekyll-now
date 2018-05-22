@@ -18,6 +18,9 @@
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
+    {% else %}
+    <meta property="og:title" content="{{ site.name }}" />
+    <meta property="twitter:title" content="{{ site.name }}" />
     {% endif %}
     <meta property="og:image" content="http://dogeminer2.com/og-image.jpg">
     <meta property="og:image:secure_url" content="https://dogeminer2.com/og-image.jpg">
