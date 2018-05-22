@@ -7,9 +7,9 @@
     {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt | strip_html }}" />
     <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
-    <meta property="og:url" content="{{site.url}}" />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
     {% else %}
-    <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
+    <meta property="og:url" content="{{site.url}}" />
     <meta name="description" content="The Dogeminer 2: Developer blog gives a glimpse of what's going on behind the scenes. Anything from small stuff like new items or upgrades to completely new features, locations and more.">
     <meta property="og:description" content="The Dogeminer 2: Developer blog gives a glimpse of what's going on behind the scenes. Anything from small stuff like new items or upgrades to completely new features, locations and more." />
     {% endif %}
