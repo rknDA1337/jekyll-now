@@ -9,8 +9,8 @@ name: "Dogeminer 2: Devblog 2 The Moon(s)"
 description: "In the Dogeminer 2: Developer blog you can get a glimpse of what's going on behind the scenes."
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: "https://dogeminer2.com/img/dogeminer2.png"
-
+avatar: "https://blog.dogeminer2.com/images/dogeminer2_devblog.png"
+twittercta: "https://blog.dogeminer2.com/images/fallow.png"
 #
 # Flags below are optional
 #
@@ -25,7 +25,7 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: "wololo" # just type anything here for a working RSS icon
   twitter: "rknDA1337"
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
