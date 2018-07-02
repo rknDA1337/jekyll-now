@@ -1,10 +1,8 @@
 ---
 ---
-
 //
 // IMPORTS
 //
-
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
@@ -309,6 +307,7 @@ nav {
   margin-bottom: 20px;
   border-bottom: 1px solid #ddd;
 }
+
 .sponsored {
   color: rgba(92, 92, 92, 0.7);
   margin: 6px 0;
@@ -318,6 +317,14 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+//attempt at fixing malaligned ads
+.google-auto-placed {
+  display: flex;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  width: auto;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
