@@ -8,7 +8,7 @@
 {% if page.title %}
   gtag('config', '{{ site.google_analytics }}', {
   'page_title' : '{{ page.title }}',
-  'page_location': '{{ page.url }}',
+  'page_location': '{{ site.url }}{{ page.url }}',
 	'page_path': '{{ page.url }}',
 	'anonymize_ip': true
 });
