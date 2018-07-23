@@ -22,7 +22,7 @@ footer-links:
   facebook: "dogeminer"
   flickr:
   github:
-  instagram:
+  instagram: "dogeminerdev"
   linkedin:
   pinterest:
   rss: "wololo" # just type anything here for a working RSS icon
@@ -83,6 +83,7 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   # - jekyll-theme-hacker
   - jekyll-paginate
+  #- jekyll-auto-image
 # Exclude these files from your production _site
 exclude:
   - Gemfile
@@ -92,5 +93,7 @@ exclude:
   - CNAME
   - HowToRunAndMarkdownStyles.txt
   - about.md
-
+  
+ # default image to show for post (for plugin auto-image)
+ #image: /path/to/your/default/image.png
 theme: jekyll-theme-hacker
