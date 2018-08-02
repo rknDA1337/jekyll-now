@@ -35,7 +35,7 @@ Anyhoot, I've set notifications on my phone to tell me when I'm 25%, 50%, 75% an
 
 **Social media shotout until this blog has some share buttons and stuff:**
 
-Subscribe to [the subreddit](https://www.reddit.com/r/DogeMiner/){:target="_blank"} if you use reddit, or follow me [on twitter](https://twitter.com/rknDA1337){:target="_blank"}. The [Facebook page](https://www.facebook.com/dogeminer/){:target="_blank"} also exists and should I get the dogeminer dev stuff on snapchat, instagram, youtube? Patreon? (I barely survive rn) I wish there were more of you reading this so I could do a poll, but I'll do so something akin to that in the future on the bigger mediums I have available then :-)
+Subscribe to [the subreddit](https://www.reddit.com/r/DogeMiner/){:target="_blank"} if you use reddit, or follow me [on twitter](https://twitter.com/rkn_dev){:target="_blank"}. The [Facebook page](https://www.facebook.com/dogeminer/){:target="_blank"} also exists and should I get the dogeminer dev stuff on snapchat, instagram, youtube? Patreon? (I barely survive rn) I wish there were more of you reading this so I could do a poll, but I'll do so something akin to that in the future on the bigger mediums I have available then :-)
 
 #### Thanks for reading and have a great day! Here's to hoping I can hit the deadline!
 
